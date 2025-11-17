@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -12,7 +12,7 @@ import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Flag, Globe, HelpCircle, Mail, Newspaper, Shield, Star, Twitter, Users, Zap } from "lucide-react";
+import { Flag, HelpCircle, Mail, Newspaper, Shield, Star, Users, Zap, Twitter, Globe } from "lucide-react";
 
 export default function Home() {
   return (
@@ -196,8 +196,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395418074-yfgdx5ny.jpg",
               imageAlt: "Red Bull Racing team",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/redbullracing" },
-                { icon: "Globe", url: "https://redbullracing.com" }
+                { icon: Twitter, url: "https://twitter.com/redbullracing" },
+                { icon: Globe, url: "https://redbullracing.com" }
               ]
             },
             {
@@ -207,8 +207,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395418578-aowd3abz.jpg",
               imageAlt: "Mercedes F1 team",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/mercedesamgf1" },
-                { icon: "Globe", url: "https://mercedes-amg-f1.com" }
+                { icon: Twitter, url: "https://twitter.com/mercedesamgf1" },
+                { icon: Globe, url: "https://mercedes-amg-f1.com" }
               ]
             },
             {
@@ -218,8 +218,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395419329-3ofqo32i.jpg",
               imageAlt: "Ferrari F1 team",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/scuderiaferrari" },
-                { icon: "Globe", url: "https://ferrari.com" }
+                { icon: Twitter, url: "https://twitter.com/scuderiaferrari" },
+                { icon: Globe, url: "https://ferrari.com" }
               ]
             },
             {
@@ -229,8 +229,8 @@ export default function Home() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395420144-1slat4ix.jpg",
               imageAlt: "McLaren F1 team",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/mclarenf1" },
-                { icon: "Globe", url: "https://mclaren.com" }
+                { icon: Twitter, url: "https://twitter.com/mclarenf1" },
+                { icon: Globe, url: "https://mclaren.com" }
               ]
             }
           ]}
@@ -257,8 +257,7 @@ export default function Home() {
               company: "Racing Fan Club",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395420705-s87vvluq.jpg",
-              imageAlt: "Marcus Johnson, F1 fan",
-              content: "The best source for F1 news I've found. Always up-to-date with breaking stories and in-depth analysis."
+              imageAlt: "Marcus Johnson, F1 fan"
             },
             {
               id: "2",
@@ -267,8 +266,7 @@ export default function Home() {
               company: "Speed Chronicles",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395421642-7zfbw63e.jpg",
-              imageAlt: "Sofia Rodriguez, motorsport blogger",
-              content: "Professional coverage that keeps me informed about every aspect of Formula 1. Highly recommended for any racing fan."
+              imageAlt: "Sofia Rodriguez, motorsport blogger"
             },
             {
               id: "3",
@@ -277,8 +275,7 @@ export default function Home() {
               company: "F1 Insights",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395422385-0tz84lqi.jpg",
-              imageAlt: "Alex Chen, racing analyst",
-              content: "Technical insights and race analysis that you won't find anywhere else. Essential reading for serious F1 followers."
+              imageAlt: "Alex Chen, racing analyst"
             },
             {
               id: "4",
@@ -287,8 +284,7 @@ export default function Home() {
               company: "Motorsport Media",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1763395422879-k6gdq87q.jpg",
-              imageAlt: "Emma Williams, F1 journalist",
-              content: "Reliable, accurate, and comprehensive F1 coverage. The newsletter keeps me updated on everything I need to know."
+              imageAlt: "Emma Williams, F1 journalist"
             }
           ]}
         />
